@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb01ef31-e5f2-4048-8220-42a4c71f3631" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1yB5H5tW3AXdP3pe2r7BgRj55S4" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="dev.polek.adbwifi.settings.AdbWifiConfigurable" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb01ef31-e5f2-4048-8220-42a4c71f3631" name="Default Changelist" comment="" />
+      <created>1631712049912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631712049912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1533" height="46" key="GridCell.Tab.0.bottom" timestamp="1631799789751">
+      <screen x="0" y="23" width="1600" height="783" />
+    </state>
+    <state width="1533" height="46" key="GridCell.Tab.0.bottom/0.23.1600.783@0.23.1600.783" timestamp="1631799789751" />
+    <state width="1533" height="382" key="GridCell.Tab.0.bottom/0.23.1600.787@0.23.1600.787" timestamp="1631773036184" />
+    <state width="1533" height="46" key="GridCell.Tab.0.center" timestamp="1631799789751">
+      <screen x="0" y="23" width="1600" height="783" />
+    </state>
+    <state width="1533" height="46" key="GridCell.Tab.0.center/0.23.1600.783@0.23.1600.783" timestamp="1631799789751" />
+    <state width="1533" height="382" key="GridCell.Tab.0.center/0.23.1600.787@0.23.1600.787" timestamp="1631773036182" />
+    <state width="1533" height="46" key="GridCell.Tab.0.left" timestamp="1631799789750">
+      <screen x="0" y="23" width="1600" height="783" />
+    </state>
+    <state width="1533" height="46" key="GridCell.Tab.0.left/0.23.1600.783@0.23.1600.783" timestamp="1631799789750" />
+    <state width="1533" height="382" key="GridCell.Tab.0.left/0.23.1600.787@0.23.1600.787" timestamp="1631773036180" />
+    <state width="1533" height="46" key="GridCell.Tab.0.right" timestamp="1631799789751">
+      <screen x="0" y="23" width="1600" height="783" />
+    </state>
+    <state width="1533" height="46" key="GridCell.Tab.0.right/0.23.1600.783@0.23.1600.783" timestamp="1631799789751" />
+    <state width="1533" height="382" key="GridCell.Tab.0.right/0.23.1600.787@0.23.1600.787" timestamp="1631773036183" />
+    <state x="480" y="167" width="615" height="490" key="find.popup" timestamp="1631864969164">
+      <screen x="0" y="23" width="1600" height="780" />
+    </state>
+    <state x="480" y="167" width="615" height="490" key="find.popup/0.23.1600.780@0.23.1600.780" timestamp="1631864969164" />
+    <state x="480" y="168" width="615" height="490" key="find.popup/0.23.1600.783@0.23.1600.783" timestamp="1631773268719" />
+    <state x="480" y="169" width="615" height="493" key="find.popup/0.23.1600.787@0.23.1600.787" timestamp="1631772466564" />
+    <state x="452" y="186" key="run.anything.popup" timestamp="1631775942666">
+      <screen x="0" y="23" width="1600" height="783" />
+    </state>
+    <state x="452" y="186" key="run.anything.popup/0.23.1600.783@0.23.1600.783" timestamp="1631775942666" />
+  </component>
+</project>

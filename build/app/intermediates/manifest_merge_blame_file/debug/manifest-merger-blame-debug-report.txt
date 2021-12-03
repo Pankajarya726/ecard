@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aura.ecard"
+4    android:versionCode="10"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:9:10-72
+14-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:9:27-69
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:12:5-79
+15-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:12:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/26a0adc147e075eb2645768e884fe929/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/26a0adc147e075eb2645768e884fe929/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:16.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/26a0adc147e075eb2645768e884fe929/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:10:5-58:19
+22        android:name="io.flutter.app.FlutterApplication"
+22-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:11:9-57
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c873189900418f438f4a8906e7c919ae/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/launcher_icon"
+25-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:13:9-45
+26        android:label="E-Cards"
+26-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:12:9-32
+27        android:supportsRtl="true" >
+27-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:16:9-35
+28        <activity
+28-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:15:9-43:20
+29            android:name="com.example.e_card.MainActivity"
+29-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:16:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:19:13-163
+31            android:hardwareAccelerated="true"
+31-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:20:13-47
+32            android:launchMode="singleTop"
+32-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:17:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:18:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:21:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:26:13-29:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:27:15-70
+44                android:resource="@style/NormalTheme" />
+44-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:28:15-52
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:35:13-38:17
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:36:15-79
+54                android:resource="@drawable/launch_background" />
+54-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:37:15-61
+55
+56            <intent-filter>
+56-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:39:13-42:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:40:17-68
+57-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:40:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:41:17-76
+59-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:41:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:44:9-52:20
+63            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+63-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:44:19-90
+64            android:launchMode="singleTask" >
+64-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:45:13-44
+65            <intent-filter>
+65-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:46:13-51:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:47:17-69
+66-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:47:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:48:17-76
+68-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:48:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:49:17-78
+69-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:49:27-75
+70
+71                <data android:scheme="com.aura.ecard.braintree" />
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:55:9-57:33
+79            android:name="flutterEmbedding"
+79-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:56:13-44
+80            android:value="2" />
+80-->/Users/mac/Desktop/pankaj/git/ecard/android/app/src/main/AndroidManifest.xml:57:13-30
+81
+82        <activity
+82-->[:flutter_braintree] /Users/mac/Desktop/pankaj/git/ecard/build/flutter_braintree/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:20
+83            android:name="com.example.flutter_braintree.FlutterBraintreeCustom"
+83-->[:flutter_braintree] /Users/mac/Desktop/pankaj/git/ecard/build/flutter_braintree/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-80
+84            android:theme="@style/bt_transparent_activity" >
+84-->[:flutter_braintree] /Users/mac/Desktop/pankaj/git/ecard/build/flutter_braintree/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-59
+85        </activity>
+86
+87        <service
+87-->[:cloud_firestore] /Users/mac/Desktop/pankaj/git/ecard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[:cloud_firestore] /Users/mac/Desktop/pankaj/git/ecard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-firestore:22.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ea5e9ce088023463009bb32f83c325d/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:19:13-37
+91            <meta-data
+91-->[:cloud_firestore] /Users/mac/Desktop/pankaj/git/ecard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+92-->[:cloud_firestore] /Users/mac/Desktop/pankaj/git/ecard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:cloud_firestore] /Users/mac/Desktop/pankaj/git/ecard/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_core] /Users/mac/Desktop/pankaj/git/ecard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+95-->[:firebase_core] /Users/mac/Desktop/pankaj/git/ecard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_core] /Users/mac/Desktop/pankaj/git/ecard/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-firestore:22.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ea5e9ce088023463009bb32f83c325d/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:20:13-22:85
+98                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+98-->[com.google.firebase:firebase-firestore:22.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ea5e9ce088023463009bb32f83c325d/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:21:17-111
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-firestore:22.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ea5e9ce088023463009bb32f83c325d/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:22:17-82
+100            <!--
+101                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+102                clients to use it as well, by defining this registrar in their own core/common library.
+103            -->
+104            <meta-data
+104-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+105                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+105-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+107        </service>
+108
+109        <activity
+109-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:18:9-20:64
+110            android:name="com.braintreepayments.api.dropin.DropInActivity"
+110-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:19:13-75
+111            android:theme="@style/bt_drop_in_activity_theme" />
+111-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:20:13-61
+112        <activity
+112-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:21:9-23:65
+113            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+113-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:22:13-76
+114            android:theme="@style/bt_add_card_activity_theme" />
+114-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:23:13-62
+115        <activity
+115-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:24:9-26:70
+116            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+116-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:25:13-81
+117            android:theme="@style/bt_vault_manager_activity_theme" />
+117-->[com.braintreepayments.api:drop-in:4.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/22589c6028a5b15a24e9dc743ac14d36/jetified-drop-in-4.1.1/AndroidManifest.xml:26:13-67
+118
+119        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+119-->[com.braintreepayments.api:braintree:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e90717b27033e34c1b31910af80469fa/jetified-braintree-3.0.0/AndroidManifest.xml:15:9-93
+119-->[com.braintreepayments.api:braintree:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e90717b27033e34c1b31910af80469fa/jetified-braintree-3.0.0/AndroidManifest.xml:15:18-90
+120
+121        <activity
+121-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7164db74a96870fcf2ef16986cb08d9d/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+122            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+122-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7164db74a96870fcf2ef16986cb08d9d/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7164db74a96870fcf2ef16986cb08d9d/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7164db74a96870fcf2ef16986cb08d9d/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+128            android:authorities="com.aura.ecard.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:19.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/53470549714dc2b04bbd315e07c984f2/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+132
+133        <meta-data
+133-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2332e2091151ba1151570fb367097c71/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+134            android:name="com.google.android.gms.version"
+134-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2332e2091151ba1151570fb367097c71/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+135            android:value="@integer/google_play_services_version" />
+135-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2332e2091151ba1151570fb367097c71/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+136
+137        <activity
+137-->[com.braintreepayments.api:google-payment:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/803ef3d22b85030c5a45138837983a15/jetified-google-payment-3.0.0/AndroidManifest.xml:12:9-14:62
+138            android:name="com.braintreepayments.api.GooglePaymentActivity"
+138-->[com.braintreepayments.api:google-payment:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/803ef3d22b85030c5a45138837983a15/jetified-google-payment-3.0.0/AndroidManifest.xml:13:13-75
+139            android:theme="@style/bt_transparent_activity" />
+139-->[com.braintreepayments.api:google-payment:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/803ef3d22b85030c5a45138837983a15/jetified-google-payment-3.0.0/AndroidManifest.xml:14:13-59
+140    </application>
+141
+142</manifest>

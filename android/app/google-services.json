@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "561005170044",
+    "project_id": "ecards-b6229",
+    "storage_bucket": "ecards-b6229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561005170044:android:f14b1f324df0efffdf28f9",
+        "android_client_info": {
+          "package_name": "com.aura.e_card"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561005170044-gtbg0otca6sloaho5i51o95ndf2qjq0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO1_X39RxDWbb9WQumOLxnhbwAl8JmrBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561005170044-gtbg0otca6sloaho5i51o95ndf2qjq0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561005170044:android:61af1514cb977109df28f9",
+        "android_client_info": {
+          "package_name": "com.aura.ecard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561005170044-gtbg0otca6sloaho5i51o95ndf2qjq0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO1_X39RxDWbb9WQumOLxnhbwAl8JmrBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561005170044-gtbg0otca6sloaho5i51o95ndf2qjq0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

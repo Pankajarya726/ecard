@@ -1,0 +1,83 @@
+name: e_card
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  google_fonts: 1.1.2
+  modal_bottom_sheet: ^1.0.0+1
+  pin_code_fields: ^6.1.0
+  provider: ^4.3.3
+  woocommerce: ^0.9.7
+  cloud_firestore: ^0.16.0+1
+  firebase_core : any
+  hive: 1.4.4+1
+  path_provider: 1.6.28
+  fluttertoast:
+  carousel_pro: ^1.0.0
+  http: ^0.12.2
+  shared_preferences: ^0.5.12+4
+  country_picker: any
+  dio: any
+  html: any
+  flutter_braintree: 1.0.3
+  dotted_line: any
+  http_auth: any
+  webview_flutter: any
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/appIcon.png"
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+
+  fonts:
+     - family: TabBarIcons
+       fonts:
+         - asset: assets/fonts/TabBarIcons.ttf
+     - family: ProfileIcon
+       fonts:
+         - asset: assets/fonts/ProfileIcon.ttf
+     - family: DetailsIcon
+       fonts:
+         - asset: assets/fonts/DetailsIcon.ttf
+     - family: HomeIcons
+       fonts:
+         - asset: assets/fonts/HomeIcons.ttf
+     - family: FilterAndShortIcons
+       fonts:
+         - asset: assets/fonts/FilterAndShortIcons.ttf
+     - family: FilterIcon
+       fonts:
+         - asset: assets/fonts/FilterIcon.ttf
+
